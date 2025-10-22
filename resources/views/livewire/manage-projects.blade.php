@@ -120,7 +120,7 @@
                   @if ($project->user_id===Auth::id())
                   <span class="text-green-500">(Owner)</span>
                   @else
-                  <span class="text-blue-500">(member)</span>
+                  <span class="text-blue-500">(Member)</span>
                   @endif
                 </td>
                 <td class="py-2 px-4 border-b">{{$project->description}}</td>
